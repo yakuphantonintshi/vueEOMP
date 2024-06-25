@@ -1,7 +1,7 @@
 {
     "jobTitle": [
         {
-            "occupation": "web developer"
+            "title": "web developer"
         }
       
     ],
@@ -15,6 +15,7 @@
     ],
     "education":[
         {
+            "id": 1,
             "degree": "BA majoring in Pyschology",
             "institution": "Nelson Mandela University",
             "graduation_year": 2024,
@@ -23,6 +24,7 @@
     ],
     "experiences":[
         {
+            "id": 2,
             "title": "Web Developer Intern",
             "company": "Life Choices Academy",
             "location": "Landsdowne Cape Town",
@@ -31,66 +33,80 @@
     ],
     "skills":[
         {
-            "name": "Javascript",
+            "id": 3,
+            "title": "Javascript",
             "monthsOfExperience": 2
         },
 
         {
-            "name": "HTML",
+            "id": 4,
+            "title": "HTML",
             "monthsOfExperience": 5
         },
         {
-            "name": "CSS",
+            "id": 5,
+            "title": "CSS",
             "monthsOfExperience": 5
         },
         {
-            "name": "Delphi",
+            "id": 6,
+            "title": "Delphi",
             "monthsOfExperience": 36
         }
     ],
     "testimonials":[
         {
-            "id": 0,
-            "name": "Avuyile Ngcabs",
-            "testimonial": "Yakupha is very good when it comes to these programming languages and she gives out the best."
+            "id": 7,
+            "name": "Lamlankosi",
+            "jobtitle": "Web Developer",
+            "review": "We were blown away by the quality of Yakupha's work. She created a website that is visually stunning, highly functional, and perfectly aligned with our brand. Her attention to detail and commitment to excellence is apparent in every aspect of her work. Yakupha is a true professional who cares deeply about their clients' success. We couldn't be happier with our new site.",
+            "profile": "https://yakuphantonintshi.github.io/myimages/Images/"
         },
         {
-            "id": 1,
-            "name": "Khanya Wawa",
-            "testimonial": "A wonderful experience from start to finish, love working with her."
+            "id": 8,
+            "name": "Khanya Pupuma",
+            "jobtitle": "Web Developer" ,
+            "review": "From the start, Yakupha stood out for her creativity, technical proficiency, and dedication to client satisfaction. She took our ideas and turned them into a dynamic website that has significantly enhanced our online presence. ",
+            "profile": "https://yakuphantonintshi.github.io/myimages/Images/Khanya.jpg"
         },
         {
-            "id": 2,
-            "name": "Avuyile Ngcabs",
-            "testimonial": "Yakupha is very good when it comes to these programming languages and she gives out the best"
+            "id": 9,
+            "name": "Simanye Somdaka",
+            "jobtitle": "Web Developer",
+            "review": "Working with Yakupha has been a game-changer for our business. Her ability to understand our vision and translate it into a functional, beautiful website was nothing short of impressive. She was responsive, professional, and incredibly detail-oriented. Our website not only looks fantastic but also performs seamlessly.",
+            "profile": "https://yakuphantonintshi.github.io/myimages/Images/simanye.jpg"
         }
     ],
     "projects": [
         {
-            "id": 3,
+            "id": 10,
             "projectName": "calculator",
-            "calculator_link": "https://javascript-calc-psi.vercel.app/"
+            "github": "https://github.com/yakuphantonintshi/javascript_calc.git",
+            "vercel": "https://javascript-calc-psi.vercel.app/"
         },
         {
-            "id": 4,
+            "id": 11,
             "projectName": "keyboard",
-            "calculator_link": "https://github.com/yakuphantonintshi/Keyboard.git"
+            "github": "https://github.com/yakuphantonintshi/Keyboard.git"
 
         },
         {
-            "id": 5,
-            "projectName": "Javascript",
-            "calculator_link": "https://javascript-project-beta.vercel.app/"
+            "id": 12,
+            "projectName": "javascript",
+            "github": "https://github.com/yakuphantonintshi/javascriptProject.git",
+            "vercel": "https://javascript-project-beta.vercel.app/"
         },
         {
-            "id": 3,
+            "id": 13,
             "projectName": "BMIcalculator",
-            "calculator_link": "https://bm-icalculator-phiu.vercel.app/"
+            "github":"https://github.com/yakuphantonintshi/BMIcalculator.git" ,
+            "vercel": "https://bm-icalculator-phiu.vercel.app/"
         },
         {
-            "id": 3,
+            "id": 14,
             "projectName": "temp_converter",
-            "calculator_link": "https://temp-converter-j6e2.vercel.app/"
+            "github": "https://github.com/yakuphantonintshi/tempConverter.git",
+            "vercel": "https://temp-converter-j6e2.vercel.app/"
         }
     ]
 }
